@@ -1,0 +1,2 @@
+openMenu (menuItem) ->
+  alert 'hi'

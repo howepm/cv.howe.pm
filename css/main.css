@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono&display=swap");
+#ideWindow {
+  font-family: "Oxygen", "Trebuchet MS", Helvetica, Tahoma, Verdana, Arial, "Lucida Sans Unicode", "Lucida Grande", Geneva, sans-serif;
+  margin: 10px; }
+  #ideWindow #top, #ideWindow #bottom {
+    height: 3px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray; }
+  #ideWindow #top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 2px solid gray; }
+  #ideWindow #bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 2px solid gray; }
+  #ideWindow #inner {
+    border-left: 2px solid gray;
+    border-right: 2px solid gray; }
+  #ideWindow #titleBar, #ideWindow #top {
+    background-color: #5c5c5c; }
+  #ideWindow #titleBar #title, #ideWindow #titleBar #controls {
+    margin-top: -2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px; }
+  #ideWindow #titleBar #title {
+    float: left;
+    font-size: 12pt;
+    color: #c8c8c8; }
+    #ideWindow #titleBar #title #programIcon {
+      margin-right: 6px;
+      padding: 3px;
+      font-size: 10pt;
+      display: inline-block;
+      border: 1px solid #1f4d6e;
+      color: #c7c7c7;
+      background-color: #37a4b3; }
+    #ideWindow #titleBar #title #programDocument {
+      font-weight: bold; }
+    #ideWindow #titleBar #title #programName {
+      color: #a6a6a6; }
+  #ideWindow #titleBar #controls {
+    float: right;
+    font-size: 8pt; }
+    #ideWindow #titleBar #controls .control {
+      display: inline-block;
+      border-radius: 5px;
+      padding: 3px;
+      border: 2px solid #c8c8c8;
+      background-color: gainsboro;
+      color: #787878;
+      cursor: pointer; }
+    #ideWindow #titleBar #controls .closeControl {
+      border-color: #7d3131;
+      background-color: #cc4949;
+      color: #4f1212; }
+    #ideWindow #titleBar #controls .minControl {
+      border-color: #6e6b2a;
+      background-color: #a8a33b;
+      color: #6b6713; }
+    #ideWindow #titleBar #controls .maxControl {
+      border-color: #245c32;
+      background-color: #50a164;
+      color: #174a24; }
+  #ideWindow #menu {
+    background-color: #b3b3b3; }
+    #ideWindow #menu .item {
+      display: inline-block;
+      text-decoration: none;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      color: #424242; }
+    #ideWindow #menu .item:hover {
+      background-color: #abcdd1;
+      border: 1px solid #48777d;
+      padding-top: 2px;
+      padding-bottom: 2px; }
+  #ideWindow #activeArea, #ideWindow #bottom {
+    background-color: #404040; }
+  #ideWindow #activeArea {
+    font-family: "Oxygen Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
+    color: #bdbdbd;
+    padding: 10px;
+    font-size: 12pt; }
+    #ideWindow #activeArea * {
+      vertical-align: top; }
+    #ideWindow #activeArea .using {
+      color: #7aa396; }
+    #ideWindow #activeArea .usingName {
+      font-weight: bold;
+      color: #7cccb3; }
+    #ideWindow #activeArea .indent {
+      padding-left: 25px; }
+    #ideWindow #activeArea .className, #ideWindow #activeArea .itemType {
+      font-weight: bold; }
+    #ideWindow #activeArea .extends, #ideWindow #activeArea .itemName {
+      font-style: italic; }
+    #ideWindow #activeArea .className {
+      color: #ed37aa; }
+    #ideWindow #activeArea .extendedClass {
+      color: #99afbf; }
+    #ideWindow #activeArea .privacy {
+      color: #919191; }
+    #ideWindow #activeArea .itemType {
+      color: #6aa36e; }
+    #ideWindow #activeArea .itemName {
+      color: white; }
+    #ideWindow #activeArea .comment {
+      display: inline; }
+      #ideWindow #activeArea .comment strong {
+        color: #e3e3e3; }
+      #ideWindow #activeArea .comment em {
+        color: #ba8f8f; }
+      #ideWindow #activeArea .comment strong.title {
+        color: #d9595d; }
+      #ideWindow #activeArea .comment .before {
+        color: #7a7a7a; }
+      #ideWindow #activeArea .comment .before, #ideWindow #activeArea .comment .inner {
+        display: table-cell; }
+
+.clear {
+  clear: both; }
+
+/*# sourceMappingURL=main.css.map */

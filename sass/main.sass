@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono&display=swap')
+#ideWindow
+  font-family: 'Oxygen', "Trebuchet MS", Helvetica, Tahoma, Verdana, Arial, "Lucida Sans Unicode", "Lucida Grande", Geneva, sans-serif
+  margin: 10px
+  #top, #bottom
+    height: 3px
+    border-left: 2px solid rgb(128, 128, 128)
+    border-right: 2px solid rgb(128, 128, 128)
+  #top
+    border-top-left-radius: 10px
+    border-top-right-radius: 10px
+    border-top: 2px solid rgb(128, 128, 128)
+  #bottom
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+    border-bottom: 2px solid rgb(128, 128, 128)
+  #inner
+    border-left: 2px solid rgb(128, 128, 128)
+    border-right: 2px solid rgb(128, 128, 128)
+  #titleBar, #top
+    background-color: rgb(92, 92, 92)
+  #titleBar
+    #title, #controls
+      margin-top: -2px
+      padding-left: 8px
+      padding-right: 8px
+      padding-top: 4px
+      padding-bottom: 4px
+    #title
+      float: left
+      font-size: 12pt
+      color: rgb(200, 200, 200)
+      #programIcon
+        margin-right: 6px
+        padding: 3px
+        font-size: 10pt
+        display: inline-block
+        border: 1px solid rgb(31, 77, 110)
+        color: rgb(199, 199, 199)
+        background-color: rgb(55, 164, 179)
+      #programDocument
+        font-weight: bold
+      #programName
+        color: rgb(166, 166, 166)
+    #controls
+      float: right
+      font-size: 8pt
+      .control
+        display: inline-block
+        border-radius: 5px
+        padding: 3px
+        border: 2px solid rgb(200, 200, 200)
+        background-color: rgb(220, 220, 220)
+        color: rgb(120, 120, 120)
+        cursor: pointer
+      .closeControl
+        border-color: rgb(125, 49, 49)
+        background-color: rgb(204, 73, 73)
+        color: rgb(79, 18, 18)
+      .minControl
+        border-color: rgb(110, 107, 42)
+        background-color: rgb(168, 163, 59)
+        color: rgb(107, 103, 19)
+      .maxControl
+        border-color: rgb(36, 92, 50)
+        background-color: rgb(80, 161, 100)
+        color: rgb(23, 74, 36)
+  #menu
+    background-color: rgb(179, 179, 179)
+    .item
+      display: inline-block
+      text-decoration: none
+      padding-left: 5px
+      padding-right: 5px
+      padding-top: 3px
+      padding-bottom: 3px
+      color: rgb(66, 66, 66)
+    .item:hover
+      background-color: rgb(171, 205, 209)
+      border: 1px solid rgb(72, 119, 125)
+      padding-top: 2px
+      padding-bottom: 2px
+  #activeArea, #bottom
+    background-color: rgb(64, 64, 64)
+  #activeArea
+    font-family: 'Oxygen Mono', "Lucida Console", Monaco,"Courier New", Courier, monospace
+    color: rgb(189, 189, 189)
+    padding: 10px
+    font-size: 12pt
+    *
+      vertical-align: top
+    .using
+      color: rgb(122, 163, 150)
+    .usingName
+      font-weight: bold
+      color: rgb(124, 204, 179)
+    .indent
+      padding-left: 25px
+    .className, .itemType
+      font-weight: bold
+    .extends, .itemName
+      font-style: italic
+    .className
+      color: rgb(237, 55, 170)
+    .extendedClass
+      color: rgb(153, 175, 191)
+    .privacy
+      color: rgb(145, 145, 145)
+    .itemType
+      color: rgb(106, 163, 110)
+    .itemName
+      color: rgb(255, 255, 255)
+    .comment
+      display: inline
+      strong
+        color: rgb(227, 227, 227)
+      em
+        color: rgb(186, 143, 143)
+      strong.title
+        color: rgb(217, 89, 93)
+      .before
+        color: rgb(122, 122, 122)
+      .before, .inner
+        display: table-cell
+.clear
+  clear: both
