@@ -18,4 +18,4 @@ A screenshot is available, although I think visiting the live site may be a litt
 
 # Screenshot
 
-![screencapture-cv-howe-pm-2020-02-17-12_04_37](C:\Users\Alex\Desktop\cv\readme\img\screencapture-cv-howe-pm-2020-02-17-12_04_37.png)
+![screencapture-cv-howe-pm-2020-02-17-12_04_37](readme/img/screencapture-cv-howe-pm-2020-02-17-12_04_37.png)
